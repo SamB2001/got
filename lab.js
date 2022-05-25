@@ -7,11 +7,7 @@
 */
 
 //CODE HERE
-<<<<<<< HEAD
 let lovesCode = true;
-=======
-let lovesCode = false;
->>>>>>> fdf7cc4b5249428c4765e7caa49d8cd2d7df3542
 if (lovesCode = true) {
   console.log ('I love to code!')
 } else {
