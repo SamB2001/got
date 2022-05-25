@@ -20,7 +20,7 @@ else{
         console.log('Jon Snow has been slain');
     } else {
         jonSnowHealth -= jamieLannisterAttack;
-        console.log(`Jon Snow's health is down to ${jonSnowHealth}`)
+        console.log(`Jon Snow's health is down to ${jonSnowHealth}`);
     }
 //jon pickes up shield
     jonSnowDefense += 25;
@@ -31,3 +31,11 @@ else{
         jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense);
         console.log(`Jon Snow's health is down to ${jonSnowHealth}`);
     }
+
+    //peasant throw jon some good shit 
+    if((jonSnowHealth + 50) >=100) {
+        jonSnowHealth = 100;
+    } else {
+        jonSnowHealth += 50;
+    }
+
